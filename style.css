@@ -1,0 +1,35 @@
+.pageContent {
+  background-color: lightgray;
+  text-align: justify;
+  font-size: 15px;
+  padding: 5% 10%;
+}
+.pageContent #logo {
+  display: block;
+  padding: 5%;
+  margin: auto;
+}
+.pageContent img {
+  display: block;
+  margin: 5% auto;
+}
+.pageContent .main p {
+  text-indent: 7%;
+}
+.pageContent .quote {
+  width: 70%;
+  float: left;
+}
+.pageContent .quote:nth-child(even) {
+  float: right;
+}
+.pageContent #links {
+  font-size: 20px;
+  text-align-last: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
